@@ -1,0 +1,8 @@
+{
+  "_说明": "铁塔充电（小程序 wxf295d9e03b73e077）的登录态。抓包取任一 charge-api 请求头里的 Authorization，去掉 'Bearer ' 前缀粘到下面。",
+  "authorization": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.PAYLOAD.SIGNATURE",
+  "device_id": "abc123",
+  "obtained_at": "2025-01-01 12:00:00",
+  "dingtalk_webhook": "",
+  "dingtalk_secret": ""
+}

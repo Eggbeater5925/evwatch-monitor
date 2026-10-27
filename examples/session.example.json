@@ -1,0 +1,15 @@
+{
+  "_说明": "运行 battery_watch.py 前把 token/ticket 换成你自己的（抓包 566 或 697 的响应里拿）；obtained_at 填你抓到它的时间，用来统计登录态真实寿命",
+  "token": "a1b2c3d4e5f6470891a2b3c4d5e6f708",
+  "ticket": "MTgwMDAwMDAwMg==.AbCdEf0123456789AbCdEf0123456789AbCdEf0123456789=",
+  "obtained_at": "2025-01-01 00:00:00",
+  "battery_no": "8900000001",
+  "city_code": "010",
+  "env": "pro",
+  "system_code": "LB64",
+  "version": "2.1.1",
+  "app_version": "8.0.79",
+  "chaos_env": "pro-1.1.3-beta.1",
+  "dingtalk_webhook": "https://oapi.dingtalk.com/robot/send?access_token=YOUR_DINGTALK_ACCESS_TOKEN",
+  "_dingtalk_说明": "机器人安全设置是「自定义关键词：电池」，消息正文会自动带上这两个字；若开了加签，再加 dingtalk_secret"
+}

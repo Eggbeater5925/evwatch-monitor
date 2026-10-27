@@ -1,0 +1,9 @@
+{
+  "_说明": "荟铭充电（wx.szhuilaidian.com）。token 从抓包 profile 响应的 data.userinfo.token 取；也可以跑 settoken 自动验证并写入。",
+  "token": "<profile 响应里的 data.userinfo.token>",
+  "obtained_at": "2025-01-01 00:00:00",
+  "order_id": "",
+  "_order_id_说明": "留空 = 自动取在充订单；填了就盯死这一单，调试用",
+  "_手机号说明": "这家没有手机号登录接口，token 是 UUID（无 exp）。失效只能重新抓包，见分析文档 §2。",
+  "_dingtalk_说明": "不填也行：huiming_watch 会从 config/session.json 借用 dingtalk_webhook / dingtalk_secret"
+}

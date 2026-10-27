@@ -1,0 +1,26 @@
+# ── 配置：登录态 / 桩配置（含 token、ticket、手机号、webhook，绝不入库）──
+# 目录本身要保留（paths.py / install.sh 直接用），所以只忽略里面的内容
+/config/*
+!/config/.gitkeep
+examples/*.local.json
+
+# ── 运行产物：CSV / 状态文件 / 日志 ──
+/data/*
+!/data/.gitkeep
+!/data/logs/
+/data/logs/*
+!/data/logs/.gitkeep
+
+# ── 抓包原文与解包产物（含手机号、GPS、token；小程序代码有版权，仓库里不放）──
+/captures/*
+!/captures/.gitkeep
+*.wxapkg
+
+# ── 系统 / 工具产物 ──
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.workbuddy/
+.idea/
+.vscode/

@@ -1,0 +1,9 @@
+{
+  "_说明": "麦希充（深圳北电云充电桩）。token 从抓包 checkPhoneNumber 的响应里取 data.token；也可以直接跑 login 自动换一份。",
+  "token": "<checkPhoneNumber 响应里的 data.token>",
+  "obtained_at": "2025-01-01 00:00:00",
+  "order_id": "",
+  "_order_id_说明": "留空 = 自动取最近一单（进行中优先）；填了就盯死这一单，调试用",
+  "_手机号说明": "手机号不写在这里。全项目只存一处：config/session.json 的 \"mobile\"。配好它，token 失效时 watch 会自动调 checkPhoneNumber 重登（仅限本人号码）。",
+  "_dingtalk_说明": "不填也行：pile_watch 会从 config/session.json 借用 dingtalk_webhook / dingtalk_secret"
+}
